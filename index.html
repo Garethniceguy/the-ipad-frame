@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Family Photo Frame</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="slideshow-container">
+      <!-- Default image – will be replaced automatically -->
+      <img id="slide-image" src="photos/photo1.jpg" alt="Slideshow image">
+    </div>
+
+    <div class="overlay">
+      <div class="overlay-left">
+        <div id="clock" class="clock">--:--</div>
+        <div id="date" class="date">Loading...</div>
+      </div>
+
+      <div class="overlay-right">
+        <div class="weather">
+          <div id="weather-temp" class="weather-temp">--°C</div>
+          <div id="weather-summary" class="weather-summary">Loading...</div>
+        </div>
+
+        <a class="album-button"
+           href="https://photos.app.goo.gl/Vu9sG16AQqYGBte69"
+           target="_blank"
+           rel="noopener">
+          View Album
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="slideshow.js"></script>
+</body>
+</html>
